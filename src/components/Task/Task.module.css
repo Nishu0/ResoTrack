@@ -1,0 +1,96 @@
+.box {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.symbol {
+  position: relative;
+  margin-top: 25px;
+  border-radius: 100%;
+  background: rgba(196, 196, 196, 0.1);
+
+  padding: 25px;
+}
+
+.blob {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: #b2bec3 1px solid;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.blob1 {
+  bottom: -24px;
+  left: 50px;
+}
+
+.blob2 {
+  bottom: -15px;
+  left: 85px;
+}
+
+.blob3 {
+  bottom: -15px;
+  left: 15px;
+}
+
+.blob4 {
+  bottom: 10px;
+  left: -12px;
+}
+
+.blob5 {
+  bottom: 10px;
+  right: -12px;
+}
+
+.blob12 {
+  top: -24px;
+  left: 50px;
+}
+
+.blob11 {
+  top: -15px;
+  left: 85px;
+}
+
+.blob10 {
+  top: -15px;
+  left: 15px;
+}
+
+.blob8 {
+  top: 10px;
+  left: -12px;
+}
+
+.blob9 {
+  top: 10px;
+  right: -12px;
+}
+
+.blob7 {
+  top: 50px;
+  right: -25px;
+}
+
+.blob6 {
+  top: 50px;
+  left: -25px;
+}
+
+.active {
+  background-color: #abe5aa !important;
+}

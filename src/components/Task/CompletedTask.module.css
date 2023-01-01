@@ -1,0 +1,52 @@
+.container {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.emojiBox {
+  position: relative;
+  margin-top: 25px;
+  border-radius: 100%;
+  background: rgba(196, 196, 196, 0.1);
+
+  padding: 25px;
+}
+
+h3 {
+  font-family: "Rasa", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.controls {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-self: space-around;
+}
+
+.controls img {
+  margin-left: 23px;
+  margin-right: 25px;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
