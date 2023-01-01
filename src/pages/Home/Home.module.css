@@ -1,0 +1,8 @@
+.layout {
+  margin-top: 20px;
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,143 @@
+.container {
+  position: relative;
+  width: 600px;
+  height: 700px;
+  padding: 70px 100px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Rasa", sans-serif;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+}
+
+.emojiBox {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.emojiBox:hover {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  text-align: center;
+}
+
+.label {
+  font-family: Rasa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  display: block;
+}
+
+.inputLayout {
+  height: 300px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(4, 100px);
+  grid-template-areas:
+    "a a a a"
+    "b b c c"
+    "d d d d";
+  grid-row-gap: 20px;
+  /* grid-column-gap: 20px; */
+  justify-content: space-between;
+}
+
+.inputTask {
+  grid-area: a;
+}
+
+.inputTask input {
+  width: 400px;
+}
+
+.inputGoal {
+  grid-area: b;
+}
+
+.inputGoal input {
+  width: 175px;
+}
+
+.inputProgress {
+  grid-area: c;
+  padding-left: 25px;
+}
+
+.inputProgress input {
+  width: 175px;
+}
+
+.inputButton {
+  width: 400px;
+  grid-area: d;
+}
+
+.submitButton {
+  width: 400px;
+  height: 50px;
+  background: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Rasa", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+}
+
+input {
+  height: 50px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #000000;
+  font-family: "Rasa", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+input::placeholder {
+  color: transparent;
+}
+
+input:focus,
+.submitButton:hover {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+i {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.back {
+  position: absolute;
+  top: 90px;
+  left: 72px;
+}
