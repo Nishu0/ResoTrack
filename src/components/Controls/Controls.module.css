@@ -1,0 +1,19 @@
+.controls {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-self: space-around;
+}
+
+.controls img {
+  margin-left: 23px;
+  margin-right: 25px;
+}
+
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}

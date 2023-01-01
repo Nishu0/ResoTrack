@@ -1,0 +1,27 @@
+footer {
+  position: relative;
+  bottom: -120px;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Rasa";
+  font-weight: 300;
+}
+
+.footerText {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

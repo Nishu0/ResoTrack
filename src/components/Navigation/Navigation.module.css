@@ -1,0 +1,64 @@
+.line {
+  width: 1100px;
+  height: 1px;
+}
+
+.navBar {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-family: "Rasa";
+  font-weight: 300;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins";
+  font-weight: 300;
+}
+
+.link {
+  display: inline-block;
+  position: relative;
+  color: #000;
+}
+
+.link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f3ba86;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.line {
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-left: 0;
+  margin-right: 0;
+}
